@@ -75,8 +75,10 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+
+
 .about{
-    margin-top: 130px;
+    margin-top: 100px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -108,6 +110,8 @@ main{
     font-size: 21px;
     color: #474747;
 }
+
+
 .what-i-do{
     margin-top: 80px;
     width: 700;
@@ -143,5 +147,101 @@ main{
     font-size: 16px;
 }
 .section-title{
-    margin-top: 80px;
+    margin: 80px 0 80px 0;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+.resume-content{
+    display: flex;
+    gap: 25px;
+}
+
+
+.resume-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+.resume .qualification{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.resume .institute{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+}
+.resume .discription{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.r-button{
+    margin-top: 35px;
+    text-align: center;
+}
+.btn-primary{
+    width: 200px;
+    height: 64px;
+    left: 700px;
+    top: 3299px;
+    margin-bottom: 25px;
+}
+
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 100px 150px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #181818;
+}
+.contact .connect{
+    text-align: left;
+}
+.massege{
+    font-weight: 700;
+    font-size: 30px;
+    color: #181818;
+    border: 0;
+}
+.name{
+    width: 261px;
+    height: 34px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 0;
+}
+.text{
+    margin-top: 10px; 
+    border-radius: 5px;
+    border: 0;
+}
+.submit{
+    height: 54px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    width: 120px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    border: 0;
+    padding: 14px 30px 15px 28px;
+}
+.time{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
